@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        .font-lexend {
+        .font-lexend{
             font-family: "Lexend", sans-serif;
         }
     </style>
@@ -29,12 +29,12 @@
                             <img src="assets/logo.png" alt="">
                         </div>
                         <div class="navbar-center">
-                            <p>Donate Bangladesh</p>
+                            <p class="lg:text-xl font-semibold">Donate Bangladesh</p>
                         </div>
                     </div>
                     <div class="navbar-end flex space-x-2">
                         <img src="assets/coin.png" alt="">
-                        <p>5500 BDT</p>
+                        <p><span id="main-balance">100000 BDT</span></p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="w-full">
                     <div class="btn text-gray-500 mb-4">
                         <img src="assets/coin.png" alt="">
-                        <p>0 BDT</p>
+                        <p><span id="donateBalance1">600 BDT</span></p>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold mb-4">Donate for Flood at Noakhali, Bangladesh</h3>
@@ -66,10 +66,10 @@
                             efforts and making a positive impact on the lives of those in need.</p>
                     </div>
                     <div class="mb-4">
-                        <input class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount"
+                        <input id="donateInt1" class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount"
                             type="text">
                     </div>
-                    <a class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</a>
+                    <button id="donate1" class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</button>
                 </div>
             </div>
             <!-- Donate for Flood Relief in Feni -->
@@ -80,7 +80,7 @@
                 <div class="w-full">
                     <div class="btn text-gray-500 mb-4">
                         <img src="assets/coin.png" alt="">
-                        <p>600 BDT</p>
+                        <p><span id="donateBalance2">2400 BDT</span></p>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold mb-4">Donate for Flood Relief in Feni,Bangladesh</h3>
@@ -92,10 +92,10 @@
                             donating today to assist those in urgent need.</p>
                     </div>
                     <div class="mb-4">
-                        <input class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount"
+                        <input id="donateInt2" class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount"
                             type="text">
                     </div>
-                    <a class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</a>
+                    <button id="donate2" class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</button>
                 </div>
             </div>
             <!-- Aid for Injured in the Quota Movement -->
@@ -106,7 +106,7 @@
                 <div class="w-full">
                     <div class="btn text-gray-500 mb-4">
                         <img src="assets/coin.png" alt="">
-                        <p>2400 BDT</p>
+                        <p><span id="donateBalance3">2400 BDT</span></p>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold mb-4">Aid for Injured in the Quota Movement</h3>
@@ -119,14 +119,17 @@
                             individuals in their time of need.</p>
                     </div>
                     <div class="mb-4">
-                        <input class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount"
-                            type="text">
+                        <input id="donateInt3" class="border border-solid w-full rounded-lg p-4" placeholder="Write Donation Amount">
                     </div>
-                    <a class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</a>
+                    <button id="donate3" class="btn w-full bg-[#B4F461] text-xl font-semibold">Donate Now</button>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="bg-[#F9F7F3] p-12 mt-16">
+
+    </footer>
+ <script src="add.js"></script>
 </body>
 
 </html>
